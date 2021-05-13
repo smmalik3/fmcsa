@@ -55,26 +55,33 @@
 		<div class="usa-navbar">
 			<div class="usa-logo" id="extended-logo">
                 <!-- Adding Header Logo -->
-                <!-- <div class="mobile-lg:grid-col-auto"> -->
+                <div class="mobile-lg:grid-col-auto">
                     <img class="fmcsa-logo-footer" src="/images/fmcsaLogoOnly.png" alt="FMCSA Logo">
-                <!-- </div> -->
-				<em class="usa-logo__text"><a aria-label="Home" href="/" title="Home">FMCSA</a></em>
+                </div>
+                <div class="mobile-lg:grid-col-auto">
+                    <em class="usa-logo__text"><a aria-label="Home" href="/" title="Home">FMCSA</a></em>
+                    <br>
+                    <p class="header-logo-text-subheading">
+                        Federal Motor Carrier Safety Administration
+                    </p>
+                </div>
 			</div>
 		</div>
 	</header>
     <!-- HEADER SECTION END  -->
 
-    <!-- MAIN CONTENT SECTION START  -->
+    <!-- BODY SECTION START  -->
 	<main id="main-content">
 		<div class="bg-base-lightest">
 			<section class="grid-container usa-section">
 				<div class="grid-row flex-justify-center">
 					<div class="grid-col-12 tablet:grid-col-8 desktop:grid-col-6">
 						<div class="bg-white padding-y-3 padding-x-5 border border-base-lighter">
-							<h1 class="margin-bottom-0">Sign in</h1>
+							<h1 class="margin-bottom-0">Log in to your account</h1>
 							<form class="usa-form">
 								<fieldset class="usa-fieldset">
-									<legend class="usa-legend usa-legend--large">Access your account</legend> <label class="usa-label" for="email">Email address</label> <input class="usa-input" id="email" name="email" required="" type="email"> <label class="usa-label" for="password-sign-in">Password</label> <input class="usa-input" id="password-sign-in" name="password" required="" type="password">
+                                    <!-- <legend class="usa-legend usa-legend--large">Choose the method that applies to you</legend> -->
+									<legend class="login-info-text">Choose the method that applies to you</legend> <label class="usa-label" for="email">Email address</label> <input class="usa-input" id="email" name="email" required="" type="email"> <label class="usa-label" for="password-sign-in">Password</label> <input class="usa-input" id="password-sign-in" name="password" required="" type="password">
 									<p class="usa-form__note"><a aria-controls="password-sign-in" class="usa-show-password" href="javascript:void(0);" title="Show password">Show password</a></p><input class="usa-button" type="submit" value="Sign in">
 									<p><a href="javascript:void(0);" title="Forgot password">Forgot password?</a></p>
 								</fieldset>
@@ -171,7 +178,10 @@
                 </a>
               </div>
             </div>
-            <h3 class="usa-footer__contact-heading">Agency Contact Center</h3>
+            <div class="email-subscribe-button">
+                <button class="usa-button" href="https://public.govdelivery.com/accounts/USDOTFMCSA/subscriber/new">Subscribe to Email Updates</button>
+            </div>
+            <!-- <h3 class="usa-footer__contact-heading">Agency Contact Center</h3>
             <address class="usa-footer__address">
               <div class="usa-footer__contact-info grid-row grid-gap">
                 <div class="grid-col-auto">
@@ -181,7 +191,7 @@
                   <a href="mailto:info@agency.gov">info@agency.gov</a>
                 </div>
               </div>
-            </address>
+            </address> -->
           </div>
         </div>
       </div>

@@ -2,8 +2,16 @@ body {
     background: #eeeeee;
 }
 
+.fmcsa-logo-header {
+    max-width: 5rem;
+}
+
 .fmcsa-logo-footer {
     max-width:5rem;
+}
+
+.padding-adjuster-left {
+    padding-left: 5px;
 }
 
 .header-logo-text-subheading {
@@ -34,6 +42,7 @@ body {
 
 .navy-blue-border {
     border-top: 5px solid #001647;
+    padding-right: 10px;
 }
 
 .gold-border {

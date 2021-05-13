@@ -5,3 +5,11 @@ body {
 .fmcsa-logo-footer {
     max-width:5rem;
 }
+
+.footer-logo-text {
+    position: relative;
+    color: #000000;
+    font-family: "Arial";
+    font-size: 14px;
+    letter-spacing: 0;
+}

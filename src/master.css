@@ -31,3 +31,11 @@ body {
     font-size: 14px;
     letter-spacing: 0;
 }
+
+.navy-blue-border {
+    border-top: 5px solid #001647;
+}
+
+.gold-border {
+    border-top: 5px solid #EEB111;
+}

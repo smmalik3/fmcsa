@@ -93,20 +93,39 @@
 							<form class="usa-form">
 								<fieldset class="usa-fieldset">
                                     <!-- <legend class="usa-legend usa-legend--large">Choose the method that applies to you</legend> -->
-									<legend class="login-info-text">Choose the method that applies to you</legend> <label class="usa-label" for="email">Email address</label> <input class="usa-input" id="email" name="email" required="" type="email"> <label class="usa-label" for="password-sign-in">Password</label> <input class="usa-input" id="password-sign-in" name="password" required="" type="password">
-									<p class="usa-form__note"><a aria-controls="password-sign-in" class="usa-show-password" href="javascript:void(0);" title="Show password">Show password</a></p><input class="usa-button" type="submit" value="Sign in">
-									<p><a href="javascript:void(0);" title="Forgot password">Forgot password?</a></p>
+									<legend class="login-info-text">Choose the method that applies to you</legend> 
+                                    
+                                    <!-- PIV CARD LOG IN BUTTON -->
+                                    <button class="usa-button usa-button--outline">PIV Card</button>
+
+                                    <!-- .gov EMAIL LOG IN BUTTON -->
+                                    <button class="usa-button usa-button--outline">.gov Email</button>
+
+                                        <label class="usa-label" for="email">Email address</label> 
+                                        <input class="usa-input" id="email" name="email" required="" type="email"> 
+                                        <label class="usa-label" for="password-sign-in">Password</label> 
+                                        <input class="usa-input" id="password-sign-in" name="password" required="" type="password">
+                                        <p class="usa-form__note">
+                                            <a aria-controls="password-sign-in" class="usa-show-password" href="javascript:void(0);" title="Show password">Show password</a>
+                                        </p>
+                                        <input class="usa-button" type="submit" value="Sign in">
+                                        <p>
+                                            <a href="javascript:void(0);" title="Forgot password">Forgot password?</a>
+                                        </p>
+                                        <p class="text-center">Don’t have an account? <a class="usa-link" href="javascript:void(0);">Create your account now</a>.</p>
+
+                                    <!-- LOGIN.GOV LOG IN BUTTON -->
+                                    <button class="usa-button usa-button--outline">Login.gov</button>
 								</fieldset>
 							</form>
 						</div>
-						<p class="text-center">Don’t have an account? <a class="usa-link" href="javascript:void(0);">Create your account now</a>.</p>
-						<div class="border-top border-base-lighter margin-top-3 padding-top-1">
+						<!-- <div class="border-top border-base-lighter margin-top-3 padding-top-1">
 							<h2>Are you a federal employee?</h2>
 							<div class="usa-prose">
 								<p>If you are a federal employee or [other secondary user], please use [secondary Single Sign On (SSO)].</p>
 								<p><a class="usa-button usa-button--outline" href="javascript:void()">Launch secondary SSO</a></p>
 							</div>
-						</div>
+						</div> -->
 					</div>
 				</div>
 			</section>

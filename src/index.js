@@ -41,3 +41,8 @@ function toggleGovEmailLogin() {
 		x.style.display = "none";
 	}
 }
+
+// Login.gov click handler
+function goToLoginGov() {
+    window.location="https://secure.login.gov/"
+}

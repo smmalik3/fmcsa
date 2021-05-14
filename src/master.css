@@ -52,16 +52,28 @@ body {
     padding-bottom: 5px;
 }
 
+.navy-blue-border-header {
+    margin-top: 0px;
+    border-top: 5px solid #001647;
+    /* padding-bottom: 5px; */
+}
+
+.gold-border-header {
+    margin-top: 0px;
+    border-top: 5px solid #EEB111;
+    /* padding-bottom: 5px; */
+}
+
 .gray-border {
     margin-top: 0px;
     border-top: 5px solid #dfe1e2;
     padding-bottom: 5px;
 }
 
-.white-border {
+.white-border-header {
     margin-top: 0px;
     border-top: 5px solid #ffffff;
-    padding-bottom: 5px;
+    /* padding-bottom: 5px; */
 }
 
 .white-background {

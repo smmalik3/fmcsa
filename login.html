@@ -96,10 +96,14 @@
 									<legend class="login-info-text">Choose the method that applies to you</legend> 
                                     
                                     <!-- PIV CARD LOG IN BUTTON -->
-                                    <button class="usa-button usa-button--outline">PIV Card</button>
+                                    <div class="grid-col-12">
+                                        <button class="usa-button usa-button--outline">PIV Card</button>
+                                    </div>
 
                                     <!-- .gov EMAIL LOG IN BUTTON -->
-                                    <button class="usa-button usa-button--outline">.gov Email</button>
+                                    <div class="grid-col-12">
+                                        <button class="usa-button usa-button--outline">.gov Email</button>
+                                    </div>
 
                                         <label class="usa-label" for="email">Email address</label> 
                                         <input class="usa-input" id="email" name="email" required="" type="email"> 
@@ -112,10 +116,16 @@
                                         <p>
                                             <a href="javascript:void(0);" title="Forgot password">Forgot password?</a>
                                         </p>
-                                        <p class="text-center">Don’t have an account? <a class="usa-link" href="javascript:void(0);">Create your account now</a>.</p>
+                                        <p class="text-center">Don’t have an account? 
+                                            <br>
+                                            <a class="usa-link" href="javascript:void(0);">Create your account now</a>.
+                                        </p>
 
                                     <!-- LOGIN.GOV LOG IN BUTTON -->
-                                    <button class="usa-button usa-button--outline">Login.gov</button>
+                                    <div class="grid-col-12">
+                                        <button class="usa-button usa-button--outline">Login.gov</button>
+                                    </div>
+                                    
 								</fieldset>
 							</form>
 						</div>
@@ -211,7 +221,7 @@
               </div>
             </div>
             <div class="email-subscribe-button">
-                <button class="usa-button" href="https://public.govdelivery.com/accounts/USDOTFMCSA/subscriber/new">Subscribe to Email Updates</button>
+                <button class="usa-button" onclick="clickToSubscribe()">Subscribe to Email Updates</button>
             </div>
           </div>
         </div>

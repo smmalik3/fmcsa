@@ -79,3 +79,7 @@ body {
 .white-background {
     background-color: #ffffff;
 }
+
+.govEmailLoginDiv {
+    border-bottom: 1px solid #F0F0F0;
+}

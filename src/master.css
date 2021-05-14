@@ -57,3 +57,13 @@ body {
     border-top: 5px solid #dfe1e2;
     padding-bottom: 5px;
 }
+
+.white-border {
+    margin-top: 0px;
+    border-top: 5px solid #ffffff;
+    padding-bottom: 5px;
+}
+
+.white-background {
+    background-color: #ffffff;
+}

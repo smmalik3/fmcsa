@@ -9,6 +9,8 @@
 	<link href="assets/uswds-2.11.2/css/uswds.min.css" rel="stylesheet">
     <!-- style sheet for non uswds assets -->
     <link href="src/master.css" rel="stylesheet" >
+    <!-- js for non uswds assets -->
+    <script src="src/index.js"></script>
 </head>
 <body>
 	<script src="assets/uswds-2.11.2/js/uswds.min.js">
@@ -102,9 +104,9 @@
 
                                     <!-- .gov EMAIL LOG IN BUTTON -->
                                     <div class="grid-col-12">
-                                        <button class="usa-button usa-button--outline">.gov Email</button>
+                                        <button class="usa-button usa-button--outline" onclick="toggleGovEmailLogin()">.gov Email</button>
                                     </div>
-
+                                    <div id="govEmailLoginDiv">
                                         <label class="usa-label" for="email">Email address</label> 
                                         <input class="usa-input" id="email" name="email" required="" type="email"> 
                                         <label class="usa-label" for="password-sign-in">Password</label> 
@@ -120,6 +122,8 @@
                                             <br>
                                             <a class="usa-link" href="javascript:void(0);">Create your account now</a>.
                                         </p>
+                                    </div>
+                                        
 
                                     <!-- LOGIN.GOV LOG IN BUTTON -->
                                     <div class="grid-col-12">

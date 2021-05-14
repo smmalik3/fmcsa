@@ -79,7 +79,3 @@ body {
 .white-background {
     background-color: #ffffff;
 }
-
-#govEmailLoginDiv.hidden {
-    display: none;
-}

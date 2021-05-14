@@ -99,12 +99,16 @@
                                     
                                     <!-- PIV CARD LOG IN BUTTON -->
                                     <div class="grid-col-12">
-                                        <button class="usa-button usa-button--outline">PIV Card</button>
+                                        <div class="grid-col-fill">
+                                            <button class="usa-button usa-button--outline">PIV Card</button>
+                                        </div>
                                     </div>
 
                                     <!-- .gov EMAIL LOG IN BUTTON -->
                                     <div class="grid-col-12">
-                                        <button class="usa-button usa-button--outline" onclick="toggleGovEmailLogin()">.gov Email</button>
+                                        <div class="grid-col-fill">
+                                            <button class="usa-button usa-button--outline" onclick="toggleGovEmailLogin()">.gov Email</button>
+                                        </div>
                                     </div>
                                     <div id="govEmailLoginDiv" style="display:none">
                                         <label class="usa-label" for="email">Email address</label> 
@@ -126,7 +130,9 @@
                                         
                                     <!-- LOGIN.GOV LOG IN BUTTON -->
                                     <div class="grid-col-12">
-                                        <button class="usa-button usa-button--outline">Login.gov</button>
+                                        <div class="grid-col-fill">
+                                            <button class="usa-button usa-button--outline" onclick="goToLoginGov()">Login.gov</button>
+                                        </div>
                                     </div>
                                     
 								</fieldset>

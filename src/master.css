@@ -88,33 +88,33 @@ body {
     display: none;
 }
 
-.dot-banner {
+.dot-ribbon {
     background-color: #15396c;
 }
 
-.dot-banner-text {
-    background-color: #ffffff;
+.dot-ribbon-text {
+    color: #ffffff;
     padding-left: 5px;
     font-size: 14px;
 }
 
 /* unvisited link */
-.dot-banner-text.a:link {
-    color: rgb(255, 255, 255);
+.dot-ribbon-text.a:link {
+    color: #ffffff;
 }
 
 /* visited link */
-.dot-banner-text.a:visited {
+.dot-ribbon-text.a:visited {
     color: rgb(203, 203, 203);
 }
 
 /* mouse over link */
-.dot-banner-text.a:hover {
+.dot-ribbon-text.a:hover {
     text-decoration: underline;
 }
 
 /* selected link */
-.dot-banner-text.a:active {
+.dot-ribbon-text.a:active {
     color: rgb(203, 203, 203);
 }
 

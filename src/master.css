@@ -88,6 +88,10 @@ body {
     display: none;
 }
 
+.dot-banner {
+    background-color: #15396c;
+}
+
 /* Remove FMCS Logo when in Mobile */
 @media only screen and (max-width: 800px){
     .fmcsa-logo-header {

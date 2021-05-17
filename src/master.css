@@ -95,6 +95,27 @@ body {
 .dot-banner-text {
     background-color: #ffffff;
     padding-left: 5px;
+    font-size: 14px;
+}
+
+/* unvisited link */
+.dot-banner-text.a:link {
+    color: rgb(255, 255, 255);
+}
+
+/* visited link */
+.dot-banner-text.a:visited {
+    color: rgb(203, 203, 203);
+}
+
+/* mouse over link */
+.dot-banner-text.a:hover {
+    text-decoration: underline;
+}
+
+/* selected link */
+.dot-banner-text.a:active {
+    color: rgb(203, 203, 203);
 }
 
 /* Remove FMCS Logo when in Mobile */

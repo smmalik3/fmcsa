@@ -84,8 +84,12 @@ body {
     border-bottom: 1px solid #F0F0F0;
 }
 
+.app-list-message {
+    display: none;
+}
+
 /* Remove FMCS Logo when in Mobile */
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 800px){
     .fmcsa-logo-header {
         display: none;
     }

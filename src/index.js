@@ -46,3 +46,19 @@ function toggleGovEmailLogin() {
 function goToLoginGov() {
     window.location="https://secure.login.gov/"
 }
+
+//Toggle Authenticated View
+function isNotLoggedIn() {
+    if(!document.URL.match('#authenticated')){
+        var x = document.getElementById("app-list");
+        x.style.display = "none";
+        var y= document.getElementById("login-items");
+        y.style.display = "none";
+    } else {
+        x.style.display = "block";
+        y.style.display = "block";
+    }
+}
+
+//Run is not logged in method
+isNotLoggedIn();

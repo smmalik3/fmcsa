@@ -119,7 +119,7 @@ body {
 }
 
 /* Remove FMCS Logo when in Mobile */
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 1024px){
     .fmcsa-logo-header {
         display: none;
     }

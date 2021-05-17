@@ -49,16 +49,19 @@ function goToLoginGov() {
 
 //Toggle Authenticated View
 function isNotLoggedIn() {
+    console.log("this method ran on page load");
     if(!document.URL.match('#authenticated')){
         var x = document.getElementById("app-list");
         x.style.display = "none";
         var y= document.getElementById("login-items");
-        y.style.display = "none";
+        y.style.display = "block";
     } else {
         x.style.display = "block";
-        y.style.display = "block";
+        y.style.display = "none";
     }
 }
 
 //Run is not logged in method
-isNotLoggedIn();
+window.onload = function() {
+    isNotLoggedIn();
+};

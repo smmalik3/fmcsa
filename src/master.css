@@ -83,3 +83,10 @@ body {
 .govEmailLoginDiv {
     border-bottom: 1px solid #F0F0F0;
 }
+
+/* Remove FMCS Logo when in Mobile */
+@media only screen and (max-width: 600px){
+    .fmcsa-logo-header {
+        display: none;
+    }
+}

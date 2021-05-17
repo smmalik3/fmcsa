@@ -53,15 +53,19 @@ function isNotLoggedIn() {
     if(!document.URL.match('#authenticated')){
         var x = document.getElementById("app-list");
         x.style.display = "none";
-        var y= document.getElementById("login-items");
+        var y = document.getElementById("login-items");
         y.style.display = "block";
+        var z = document.getElementById("app-list-message");
+        z.style.display = "block"
     } else {
         x.style.display = "block";
         y.style.display = "none";
+        z.style.display = "none"
     }
 }
 
-//Run is not logged in method
+//Run is not logged in method on page load
 window.onload = function() {
+    console.log("on load method ran");
     isNotLoggedIn();
 };

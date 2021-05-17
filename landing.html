@@ -86,7 +86,7 @@
 				<button class="usa-nav__close"><img alt="close" role="img" src="/assets/uswds-2.11.2/img/usa-icons/close.svg"></button>
 				<ul class="usa-nav__primary usa-accordion">
 					<li class="usa-nav__primary-item">
-						<button aria-controls="extended-nav-section-one" aria-expanded="false" class="usa-accordion__button usa-nav__link usa-current"><span>Current section</span></button>
+						<button aria-controls="extended-nav-section-one" aria-expanded="false" class="usa-accordion__button usa-nav__link usa-current"><span>Home</span></button>
 						<ul class="usa-nav__submenu" id="extended-nav-section-one">
 							<li class="usa-nav__submenu-item">
 								<a class="" href="#">Home</a>
@@ -100,7 +100,7 @@
 						</ul>
 					</li>
 					<li class="usa-nav__primary-item">
-						<button aria-controls="extended-nav-section-two" aria-expanded="false" class="usa-accordion__button usa-nav__link"><span>Section</span></button>
+						<button aria-controls="extended-nav-section-two" aria-expanded="false" class="usa-accordion__button usa-nav__link"><span>About</span></button>
 						<ul class="usa-nav__submenu" id="extended-nav-section-two">
 							<li class="usa-nav__submenu-item">
 								<a class="" href="#">Home</a>
@@ -114,15 +114,15 @@
 						</ul>
 					</li>
 					<li class="usa-nav__primary-item">
-						<a class="usa-nav__link" href="javascript:void(0)"><span>Simple link</span></a>
+						<a class="usa-nav__link" href="javascript:void(0)"><span>Link</span></a>
 					</li>
 				</ul>
 				<div class="usa-nav__secondary">
 					<ul class="usa-nav__secondary-links">
-						<li class="usa-nav__secondary-item">
+						<li class="usa-nav__secondary-item" id="login-items">
 							<a href="">Login</a>
 						</li>
-						<li class="usa-nav__secondary-item">
+						<li class="usa-nav__secondary-item" id="login-items">
 							<a href="">Register</a>
 						</li>
 					</ul>
@@ -163,19 +163,23 @@
 			</div>
 		</section> -->
 		<section class="usa-graphic-list usa-section usa-section--dark">
-			<div class="grid-container">
+			<div class="grid-container" id="app-list">
 				<h1>Available FMCSA Systems</h1>
 				<div class="usa-graphic-list__row grid-row grid-gap">
 					<div class="usa-media-block tablet:grid-col">
 						<!-- <img alt="Alt text" class="usa-media-block__img" src="/assets/uswds-2.11.2/img/circle-124.png"> -->
-						<img alt="Alt text" class="usa-media-block__img" src="/images/app1.png">
+						<a class="usa-nav__link" href="javascript:void(0)">
+							<img alt="Alt text" class="usa-media-block__img" src="/images/app1.png">
+						</a>
 						<div class="usa-media-block__body">
 							<h2 class="usa-graphic-list__heading">L&I</h2>
 							<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</p>
 						</div>
 					</div>
 					<div class="usa-media-block tablet:grid-col">
-						<img alt="Alt text" class="usa-media-block__img" src="/images/app2.png">
+						<a class="usa-nav__link" href="javascript:void(0)">
+							<img alt="Alt text" class="usa-media-block__img" src="/images/app2.png">
+						</a>
 						<div class="usa-media-block__body">
 							<h2 class="usa-graphic-list__heading">MCMIS</h2>
 							<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</p>
@@ -184,14 +188,18 @@
 				</div>
 				<div class="usa-graphic-list__row grid-row grid-gap">
 					<div class="usa-media-block tablet:grid-col">
-						<img alt="Alt text" class="usa-media-block__img" src="/images/app3.png">
+						<a class="usa-nav__link" href="javascript:void(0)">
+							<img alt="Alt text" class="usa-media-block__img" src="/images/app3.png">
+						</a>
 						<div class="usa-media-block__body">
 							<h2 class="usa-graphic-list__heading">NCCDB</h2>
 							<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</p>
 						</div>
 					</div>
 					<div class="usa-media-block tablet:grid-col">
-						<img alt="Alt text" class="usa-media-block__img" src="/images/app4.png">
+						<a class="usa-nav__link" href="javascript:void(0)">
+							<img alt="Alt text" class="usa-media-block__img" src="/images/app4.png">
+						</a>
 						<div class="usa-media-block__body">
 							<h2 class="usa-graphic-list__heading">Query Central</h2>
 							<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</p>
@@ -200,7 +208,7 @@
 				</div>
 			</div>
 		</section>
-		<section class="usa-section" id="test-section-id">
+		<section class="usa-section white-background" id="test-section-id">
 			<div class="grid-container">
 				<div class="grid-row flex-justify-center">
 					<div class="grid-col-12 tablet:grid-col-8 desktop:grid-col-6">

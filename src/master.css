@@ -103,6 +103,11 @@ body {
     padding-left: 20px;
 }
 
+.log-in-button {
+    display: block;
+    width: 100%;
+}
+
 /* Remove FMCS Logo when in Mobile */
 @media only screen and (max-width: 1024px){
     .fmcsa-logo-header {

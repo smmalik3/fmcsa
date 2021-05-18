@@ -44,7 +44,12 @@ function toggleGovEmailLogin() {
 
 // Login.gov click handler
 function goToLoginGov() {
-    window.location="https://secure.login.gov/"
+    window.location="http://10.75.161.205:8080/web/guest/login-page-new-1?loginflow=logingov"
+}
+
+// PIV Card Login Button click handler
+function goToPivLogin() {
+    window.location="https://federatetest.smext.faa.gov/affwebservices/public/saml2sso?SPID=http://10.75.161.205:8080/&RelayState=http://10.75.161.205:8080/group/guest/home"
 }
 
 //Toggle Authenticated View

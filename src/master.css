@@ -99,24 +99,8 @@ body {
     font-size: 14px;
 }
 
-/* unvisited link */
-.dot-ribbon-text.a:link {
-    color: #ffffff;
-}
-
-/* visited link */
-.dot-ribbon-text.a:visited {
-    color: rgb(203, 203, 203);
-}
-
-/* mouse over link */
-.dot-ribbon-text.a:hover {
-    text-decoration: underline;
-}
-
-/* selected link */
-.dot-ribbon-text.a:active {
-    color: rgb(203, 203, 203);
+.email-subscribe-button {
+    padding-left: 20px;
 }
 
 /* Remove FMCS Logo when in Mobile */
